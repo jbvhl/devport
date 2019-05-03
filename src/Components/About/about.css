@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.about h1 {
+    margin: 5%;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+.about p {
+    margin: 9%;
+    font-variant: small-caps;
+}
+
+.skills {
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}

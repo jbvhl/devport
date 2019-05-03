@@ -7,9 +7,9 @@ export default class Landing extends React.Component {
     return (
       <div className="landing">
         <inline>
-          <Link to="/about">Discover Me </Link>|
-          <Link to="/portfolio"> Portfolio </Link>|
-          <Link to="/contact"> Contact Me</Link>
+          <Link to="/about">Discover Me</Link> | 
+          <Link to="/portfolio">Portfolio</Link> | 
+          <Link to="/contact">Contact Me</Link>
         </inline>
         <h1>Full Stack Web Developer</h1>
         <p>Innovative | Passionate | Ambitious</p>

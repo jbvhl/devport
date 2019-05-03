@@ -1,35 +1,58 @@
 .landing {
-    background-image: url('../Assets/212355.jpg');
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    letter-spacing: 5px;
+  background-image: url("../Assets/212355.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
 }
 
 .landing h1 {
-    margin: 0;
-    font-weight: 500;
-    font-size: 65px;
+  overflow: hidden;
+  border-right: 0.1em solid;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 65px;
+  white-space: nowrap;
+  letter-spacing: 0.2em;
+  animation: typing 3.5s steps(40, end), blinking 1s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+@keyframes blinking {
+  from,
+  to {
+    border-color: rgb(216, 214, 214);
+  }
+  50% {
+    border-color: rgb(247, 238, 223);
+  }
 }
 
 .landing p {
-    margin-top: 1%;
-    margin-bottom: 2%;
-    font-size: 25px;
-    font-variant: small-caps;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 25px;
+  font-variant: small-caps;
 }
 
 a {
-    text-decoration: none;  
-    font-variant: small-caps;
-    color: white;
+  text-decoration: none;
+  font-variant: small-caps;
+  color: white;
 }
 
 a:hover {
-color: aquamarine;
+  color: aquamarine;
+  font-size: 20px;
 }
