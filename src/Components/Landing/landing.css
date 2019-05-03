@@ -1,0 +1,35 @@
+.landing {
+    background-image: url('../Assets/212355.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.landing h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 65px;
+}
+
+.landing p {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 25px;
+    font-variant: small-caps;
+}
+
+a {
+    text-decoration: none;  
+    font-variant: small-caps;
+    color: white;
+}
+
+a:hover {
+color: aquamarine;
+}
